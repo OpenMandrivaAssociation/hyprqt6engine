@@ -38,6 +38,7 @@ QT6 Theme Provider for Hyprland. Compatible with KDE, replaces qt6ct.
 %autosetup -p1
 
 %files
+%license LICENSE
 %{_libdir}/lib%{name}-common.so
 %{_qtdir}/plugins/platformthemes/lib%{name}.so
 %{_qtdir}/plugins/styles/libhypr-style.so
