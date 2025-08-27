@@ -1,0 +1,10 @@
+--- hyprqt6engine-0.1.0/hyprqtplugin/CMakeLists.txt.og	2025-08-27 16:12:15.931701997 -0400
++++ hyprqt6engine-0.1.0/hyprqtplugin/CMakeLists.txt	2025-08-27 16:12:22.656111082 -0400
+@@ -1,5 +1,7 @@
+ project(hyprqtplugin)
+ 
++find_package(Qt6 REQUIRED COMPONENTS Gui GuiPrivate)
++
+ set(app_SRCS
+   main.cpp
+   PlatformTheme.cpp
