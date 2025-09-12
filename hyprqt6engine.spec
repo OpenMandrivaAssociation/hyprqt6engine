@@ -3,7 +3,7 @@ Version:	0.1.0
 Release:	1
 URL:		https://github.com/hyprwm/hyprqt6engine
 Source0:	%{url}/archive/v%{version}/%{name}-%{version}.tar.gz
-# Patch needed for 6.10 I believe
+# Merge Request submitted upstream to fix issue
 Patch0:     FixedGuiPrivate.patch
 Summary:	QT6 Theme Provider for Hyprland
 License:	BSD-3-Clause
