@@ -1,6 +1,6 @@
 Name:		hyprqt6engine
 Version:	0.1.0
-Release:	1
+Release:	2
 URL:		https://github.com/hyprwm/hyprqt6engine
 Source0:	%{url}/archive/v%{version}/%{name}-%{version}.tar.gz
 # Merge Request submitted upstream to fix issue
