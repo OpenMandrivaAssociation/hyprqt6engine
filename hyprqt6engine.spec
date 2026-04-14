@@ -22,11 +22,11 @@ BuildRequires:	cmake(KF6Config)
 BuildRequires:	cmake(Qt6QmlCore)
 BuildRequires:	vulkan-headers
 BuildRequires:	cmake(Qt6LabsSynchronizer)
-BuildRequires:	cmake(Qt6QmlAssetDownloader)
+#BuildRequires:	cmake(Qt6QmlAssetDownloader)
 BuildRequires:	cmake(Qt6QmlNetwork)
 BuildRequires:	cmake(KF6ColorScheme)
 BuildRequires:	cmake(KF6IconThemes)
-BuildRequires:	cmake(Qt6ExamplesAssetDownloaderPrivate)
+#BuildRequires:	cmake(Qt6ExamplesAssetDownloaderPrivate)
 BuildRequires:	cmake(Qt6Concurrent)
 BuildRequires:	cmake(Qt6Gui)
 
